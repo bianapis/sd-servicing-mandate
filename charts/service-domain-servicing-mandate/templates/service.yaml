@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ template "service-domain-servicing-mandate.fullname" . }}
+  labels:
+    app: {{ template "service-domain-servicing-mandate.name" . }}
+    chart: {{ template "service-domain-servicing-mandate.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    app: {{ template "service-domain-servicing-mandate.name" . }}
+    release: {{ .Release.Name }}

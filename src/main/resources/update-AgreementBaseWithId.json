@@ -1,0 +1,17 @@
+{
+  "servicingMandateAgreementReference" : "SMA1234",
+  "servicingMandateAgreementProductServiceProfile" : "servicingMandateAgreementProductServiceProfile",
+  "documentReference" : "DR973",
+  "partyReference" : "PR9873",
+  "servicingMandateAgreementJurisdiction" : "servicingMandateAgreementJurisdiction",
+  "servicingMandateAgreementProductServiceTypeEligibility" : "servicingMandateAgreementProductServiceTypeEligibility",
+  "servicingMandateAgreementValidFromToDate" : {
+    "fromDate" : "09-01-2018 07:30:00 EST",
+    "toDate" : "09-02-2018 19:30:00 EST"
+  },
+  "servicingMandateAgreementProductServiceProfileReference" : "PSP07331",
+  "productServiceType" : "credit card",
+  "servicingMandateAgreementRecord" : {},
+  "servicingMandateAgreementType" : "PSD2",
+  "servicingMandateAgreementSignaturesResponsibleParties" : "servicingMandateAgreementSignaturesResponsibleParties"
+}

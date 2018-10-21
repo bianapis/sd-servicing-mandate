@@ -1,0 +1,10 @@
+{
+  "servicingMandateAgreementReference" : "SMA1234",
+  "customerReference" : "CR93278",
+  "servicingMandateAgreementCustomerProductServiceTypeUsage" : "servicingMandateAgreementCustomerProductServiceTypeUsage",
+  "servicingMandateAgreementCustomerProductServiceProfileReference" : "CPSP734",
+  "servicingMandateAgreementCustomerProductServiceTypeAccess" : "servicingMandateAgreementCustomerProductServiceTypeAccess",
+  "servicingMandateAgreementCustomerProductServiceProfile" : "servicingMandateAgreementCustomerProductServiceProfile",
+  "productServiceType" : "credit card",
+  "servicingMandateAgreementRecord" : {}
+}
